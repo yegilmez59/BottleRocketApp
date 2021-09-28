@@ -8,6 +8,9 @@
 import UIKit
 
 class RestaurantDetailViewController: UIViewController {
+    
+    //test
+    
     private lazy var restaurantMapView: RestaurantMapView = {
         let mapView = RestaurantMapView(latitudes: [self.restaurantDetailViewModel.latitude], longitudes: [self.restaurantDetailViewModel.longitude], titles: [self.restaurantDetailViewModel.formattedMapAnnotationTitle])
         mapView.heightAnchor.constraint(equalToConstant: 180).isActive = true
